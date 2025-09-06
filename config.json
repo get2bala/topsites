@@ -6,5 +6,20 @@
     "from-red-50 to-white",
     "from-green-50 to-white"
   ],
-  "randomizeOrder": true
+  "randomizeOrder": true,
+  "categories": [
+    "Education",
+    "Entertainment",
+    "Finance",
+    "Food",
+    "Health",
+    "Lifestyle",
+    "News",
+    "Productivity",
+    "Shopping",
+    "Social",
+    "Technology",
+    "Transportation",
+    "Travel"
+  ]
 }

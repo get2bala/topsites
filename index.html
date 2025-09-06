@@ -4,19 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The best websites you've never seen.</title>
+    <meta name="theme-color" content="#0ea5e9">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-    <div class="container mx-auto max-w-3xl px-4 py-8 md:py-12">
-        <header class="text-center mb-10">
-            
-            
+    <div class="container mx-auto max-w-3xl px-4 py-4 md:py-6">
+        <header class="mb-6">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                    <button id="menu-btn" class="p-2 -m-2 rounded-lg hover:bg-black/5" aria-label="Open menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                    </button>
+                    <h1 class="text-xl md:text-2xl font-bold">Top Sites</h1>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div id="active-filter" class="hidden items-center gap-2">
+                        <span id="filter-label" class="inline-flex items-center px-2.5 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-700"></span>
+                        <button id="close-filter-btn" class="p-2 rounded-lg hover:bg-black/5" aria-label="Close filter">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                        </button>
+                    </div>
+                    <button id="a2hs-btn" class="hidden inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition-colors" aria-label="Add to Home Screen">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"></path><path d="M5 12h14"></path></svg>
+                        Add to Home
+                    </button>
+                </div>
+            </div>
         </header>
+
+        <!-- Side Drawer Menu -->
+        <div id="sidebar-overlay" class="fixed inset-0 z-40 hidden" aria-hidden="true">
+            <div class="absolute inset-0 bg-black/40" id="overlay-bg"></div>
+            <aside class="absolute left-0 top-0 bottom-0 w-72 max-w-[80%] bg-white shadow-xl p-4 transform -translate-x-full transition-transform" id="sidebar">
+                <div class="flex items-center justify-between mb-4">
+                    <h2 class="text-lg font-semibold">Categories</h2>
+                    <button id="close-menu-btn" class="p-2 rounded-lg hover:bg-black/5" aria-label="Close menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </button>
+                </div>
+                <nav id="category-list" class="space-y-1 overflow-y-auto">
+                    <!-- Categories injected here -->
+                </nav>
+            </aside>
+        </div>
 
         <main id="feed-container" class="space-y-8">
             <!-- Cards will be injected here by JavaScript -->
@@ -31,16 +70,48 @@
         </div>
     </div>
 
+    <!-- iOS A2HS hint -->
+    <div id="ios-a2hs" class="hidden fixed bottom-4 left-1/2 -translate-x-1/2 z-50 max-w-sm w-[90%] bg-white border border-gray-200 shadow-xl rounded-xl p-3 text-sm">
+        <div class="flex items-start gap-2">
+            <div class="shrink-0 text-blue-600">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"></path><path d="m5 12 7-7 7 7"></path></svg>
+            </div>
+            <p>To add this app to your Home Screen: tap the Share button, then choose "Add to Home Screen".</p>
+            <button id="ios-a2hs-close" class="ml-auto p-1 rounded-md hover:bg-black/5" aria-label="Close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+    </div>
+
     <script>
         const feedContainer = document.getElementById('feed-container');
         const loader = document.getElementById('loader');
+        const menuBtn = document.getElementById('menu-btn');
+        const sidebarOverlay = document.getElementById('sidebar-overlay');
+        const sidebar = document.getElementById('sidebar');
+        const overlayBg = document.getElementById('overlay-bg');
+        const closeMenuBtn = document.getElementById('close-menu-btn');
+        const categoryList = document.getElementById('category-list');
+        const activeFilterWrap = document.getElementById('active-filter');
+        const closeFilterBtn = document.getElementById('close-filter-btn');
+        const filterLabel = document.getElementById('filter-label');
+        const a2hsBtn = document.getElementById('a2hs-btn');
+        const iosA2hs = document.getElementById('ios-a2hs');
+        const iosA2hsClose = document.getElementById('ios-a2hs-close');
 
         // --- DATA LOADING ---
         let allCategories = [];
         let colorPatterns = [];
+        let categories = [];
         let randomizeOrder = false;
         let isLoading = false;
         let categoryIndex = 0;
+        let activeFilterTag = null;
+
+        // PWA install prompt
+        let deferredPrompt = null;
+        const isIos = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+        const isInStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
 
         // Fetch data.json and config.json
         async function loadData() {
@@ -52,10 +123,13 @@
             const config = await configRes.json();
             colorPatterns = config.colorPatterns || [];
             randomizeOrder = Boolean(config.randomizeOrder);
+            categories = Array.isArray(config.categories) ? config.categories : [];
 
             if (randomizeOrder) {
                 shuffleArray(allCategories);
             }
+
+            renderCategoryMenu();
         }
 
         // Fisher–Yates shuffle
@@ -93,8 +167,11 @@
 
             const websitesHtml = cardData.websites.map(createWebsiteItem).join('<div class="my-2 border-t border-gray-200/80"></div>');
 
+            // Tags removed as requested
             card.innerHTML = `
-                <h2 class="text-2xl md:text-2xl font-bold mb-6 text-gray-900">${cardData.title}</h2>
+                <div class="mb-4">
+                    <h2 class="text-2xl md:text-2xl font-bold text-gray-900">${cardData.title}</h2>
+                </div>
                 <div class="space-y-2">
                     ${websitesHtml}
                 </div>
@@ -105,6 +182,7 @@
         // Function to load more content
         function loadMoreContent() {
             if (isLoading) return;
+            if (activeFilterTag) return; // disable endless scroll when filtered
             isLoading = true;
             loader.classList.remove('hidden');
 
@@ -135,6 +213,89 @@
             }, 500); // 0.5-second delay
         }
 
+        function renderAllInitial() {
+            // initial two cards
+            categoryIndex = 0;
+            feedContainer.innerHTML = '';
+            loadMoreContent();
+        }
+
+        function renderFiltered(tag) {
+            feedContainer.innerHTML = '';
+            const filtered = allCategories.filter(c => (c.tags || []).includes(tag));
+            if (filtered.length === 0) {
+                const empty = document.createElement('div');
+                empty.className = 'p-6 text-center text-gray-600';
+                empty.innerHTML = `No results for <span class="font-semibold">${tag}</span>.`;
+                feedContainer.appendChild(empty);
+            } else {
+                filtered.forEach((category, idx) => {
+                    const cardElement = createCard(category, idx);
+                    feedContainer.appendChild(cardElement);
+                });
+            }
+            loader.classList.add('hidden');
+            isLoading = false;
+        }
+
+        function renderCategoryMenu() {
+            const items = [
+                { label: 'All', value: null },
+                ...categories.map(c => ({ label: c, value: c }))
+            ];
+            categoryList.innerHTML = items.map(item => `
+                <button data-tag="${item.value ?? ''}" class="w-full text-left px-3 py-2 rounded-lg hover:bg-black/5 ${activeFilterTag === item.value ? 'bg-blue-50 text-blue-700' : ''}">${item.label}</button>
+            `).join('');
+
+            // attach listeners
+            [...categoryList.querySelectorAll('button')].forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const val = btn.getAttribute('data-tag') || null;
+                    if (!val) {
+                        clearFilter();
+                    } else {
+                        setActiveFilter(val);
+                    }
+                    closeMenu();
+                });
+            });
+        }
+
+        function setActiveFilter(tag) {
+            activeFilterTag = tag;
+            updateHeader();
+            renderCategoryMenu();
+            renderFiltered(tag);
+        }
+
+        function clearFilter() {
+            activeFilterTag = null;
+            updateHeader();
+            renderCategoryMenu();
+            renderAllInitial();
+        }
+
+        function updateHeader() {
+            if (activeFilterTag) {
+                activeFilterWrap.classList.remove('hidden');
+                filterLabel.textContent = activeFilterTag;
+            } else {
+                activeFilterWrap.classList.add('hidden');
+                filterLabel.textContent = '';
+            }
+        }
+
+        function openMenu() {
+            sidebarOverlay.classList.remove('hidden');
+            requestAnimationFrame(() => {
+                sidebar.classList.remove('-translate-x-full');
+            });
+        }
+        function closeMenu() {
+            sidebar.classList.add('-translate-x-full');
+            setTimeout(() => sidebarOverlay.classList.add('hidden'), 200);
+        }
+
         // --- EVENT LISTENERS ---
         window.addEventListener('scroll', () => {
             // Check if user is near the bottom of the page
@@ -143,10 +304,58 @@
             }
         });
 
+        menuBtn.addEventListener('click', openMenu);
+        closeMenuBtn.addEventListener('click', closeMenu);
+        overlayBg.addEventListener('click', closeMenu);
+        closeFilterBtn.addEventListener('click', clearFilter);
+
+        // A2HS
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            if (!isIos && !isInStandalone) {
+                a2hsBtn.classList.remove('hidden');
+            }
+        });
+        a2hsBtn.addEventListener('click', async () => {
+            if (isIos) {
+                showIosA2HS();
+                return;
+            }
+            if (!deferredPrompt) return;
+            deferredPrompt.prompt();
+            const { outcome } = await deferredPrompt.userChoice;
+            if (outcome === 'accepted') {
+                a2hsBtn.classList.add('hidden');
+            }
+            deferredPrompt = null;
+        });
+        function showIosA2HS() {
+            iosA2hs.classList.remove('hidden');
+            setTimeout(() => iosA2hs.classList.add('hidden'), 7000);
+        }
+        iosA2hsClose.addEventListener('click', () => iosA2hs.classList.add('hidden'));
+
         // Initial load
         window.onload = async () => {
+            // Unregister any existing service worker to rely on browser's default caching
+            if ('serviceWorker' in navigator) {
+                try {
+                    const registrations = await navigator.serviceWorker.getRegistrations();
+                    for (let registration of registrations) {
+                        await registration.unregister();
+                        console.log('Service worker unregistered');
+                    }
+                } catch (e) {
+                    console.error('Service worker unregistration failed:', e);
+                }
+            }
             await loadData();
-            loadMoreContent();
+            renderAllInitial();
+            // Show A2HS button for iOS as hint
+            if (isIos && !isInStandalone) {
+                a2hsBtn.classList.remove('hidden');
+            }
         };
 
     </script>
