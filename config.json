@@ -1,0 +1,10 @@
+{
+  "colorPatterns": [
+    "from-blue-50 to-white",
+    "from-purple-50 to-white",
+    "from-teal-50 to-white",
+    "from-red-50 to-white",
+    "from-green-50 to-white"
+  ],
+  "randomizeOrder": true
+}

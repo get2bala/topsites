@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The best websites you've never seen.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto max-w-3xl px-4 py-8 md:py-12">
+        <header class="text-center mb-10">
+            
+            
+        </header>
+
+        <main id="feed-container" class="space-y-8">
+            <!-- Cards will be injected here by JavaScript -->
+        </main>
+
+        <div id="loader" class="text-center py-10 hidden">
+            <svg class="animate-spin h-8 w-8 text-blue-500 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+            <p class="mt-2 text-gray-500">Discovering more sites...</p>
+        </div>
+    </div>
+
+    <script>
+        const feedContainer = document.getElementById('feed-container');
+        const loader = document.getElementById('loader');
+
+        // --- DATA LOADING ---
+        let allCategories = [];
+        let colorPatterns = [];
+        let randomizeOrder = false;
+        let isLoading = false;
+        let categoryIndex = 0;
+
+        // Fetch data.json and config.json
+        async function loadData() {
+            const [dataRes, configRes] = await Promise.all([
+                fetch('data.json'),
+                fetch('config.json')
+            ]);
+            allCategories = await dataRes.json();
+            const config = await configRes.json();
+            colorPatterns = config.colorPatterns || [];
+            randomizeOrder = Boolean(config.randomizeOrder);
+
+            if (randomizeOrder) {
+                shuffleArray(allCategories);
+            }
+        }
+
+        // Fisher–Yates shuffle
+        function shuffleArray(arr) {
+            for (let i = arr.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [arr[i], arr[j]] = [arr[j], arr[i]];
+            }
+        }
+
+
+        // Function to create a single website item's HTML
+        function createWebsiteItem(website) {
+            const faviconUrl = `https://www.google.com/s2/favicons?domain=${website.url}&sz=32`;
+            return `
+                <a href="${website.url}" target="_blank" rel="noopener noreferrer" class="group flex items-start md:items-center space-x-4 p-3 -m-3 rounded-xl hover:bg-black/5 transition-colors duration-200">
+                    <img src="${faviconUrl}" alt="${website.name} favicon" class="w-8 h-8 rounded-md bg-gray-200 shrink-0" onerror="this.src='https://placehold.co/32x32/e2e8f0/475569?text=Err'">
+                    <div class="flex-grow">
+                        <h3 class="font-semibold text-lg text-gray-800">${website.name}</h3>
+                        <p class="text-sm text-gray-600">${website.description}</p>
+                    </div>
+                    <div class="ml-auto text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity duration-200 transform-gpu group-hover:scale-110">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    </div>
+                </a>
+            `;
+        }
+
+        // Function to create a category card
+        function createCard(cardData, colorIdx) {
+            const card = document.createElement('div');
+            // Use color pattern from config, fallback to default if not enough colors
+            const color = colorPatterns[colorIdx % colorPatterns.length] || 'from-gray-100 to-white';
+            card.className = `p-6 md:p-8 rounded-2xl bg-gradient-to-br ${color} border border-gray-200/80 shadow-lg fade-in`;
+
+            const websitesHtml = cardData.websites.map(createWebsiteItem).join('<div class="my-2 border-t border-gray-200/80"></div>');
+
+            card.innerHTML = `
+                <h2 class="text-2xl md:text-2xl font-bold mb-6 text-gray-900">${cardData.title}</h2>
+                <div class="space-y-2">
+                    ${websitesHtml}
+                </div>
+            `;
+            return card;
+        }
+        
+        // Function to load more content
+        function loadMoreContent() {
+            if (isLoading) return;
+            isLoading = true;
+            loader.classList.remove('hidden');
+
+            setTimeout(() => {
+                const newCategories = [];
+                for (let i = 0; i < 2; i++) { // Load 2 cards at a time
+                    if (categoryIndex < allCategories.length) {
+                        newCategories.push(allCategories[categoryIndex]);
+                        categoryIndex++;
+                    } else {
+                        // Optional: loop the content for a truly "endless" feel with mock data
+                        categoryIndex = 0;
+                        if (randomizeOrder) {
+                            shuffleArray(allCategories);
+                        }
+                        newCategories.push(allCategories[categoryIndex]);
+                        categoryIndex++;
+                    }
+                }
+
+                newCategories.forEach((category, idx) => {
+                    const cardElement = createCard(category, (categoryIndex - newCategories.length + idx));
+                    feedContainer.appendChild(cardElement);
+                });
+
+                loader.classList.add('hidden');
+                isLoading = false;
+            }, 500); // 0.5-second delay
+        }
+
+        // --- EVENT LISTENERS ---
+        window.addEventListener('scroll', () => {
+            // Check if user is near the bottom of the page
+            if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 500 && !isLoading) {
+                loadMoreContent();
+            }
+        });
+
+        // Initial load
+        window.onload = async () => {
+            await loadData();
+            loadMoreContent();
+        };
+
+    </script>
+</body>
+</html>
+

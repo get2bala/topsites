@@ -1,0 +1,252 @@
+[
+  {
+    "title": "Top 5 AI Productivity Tools",
+    "websites": [
+      { "name": "ChatGPT", "url": "https://chat.openai.com", "description": "A powerful AI language model for conversation and content creation." },
+      { "name": "Notion AI", "url": "https://www.notion.so/product/ai", "description": "Integrate AI assistance directly into your notes and documents." },
+      { "name": "Gamma", "url": "https://gamma.app", "description": "Create beautiful presentations and documents with AI-powered design." },
+      { "name": "Perplexity AI", "url": "https://www.perplexity.ai", "description": "An answer engine that provides direct, cited answers to complex questions." },
+      { "name": "Midjourney", "url": "https://www.midjourney.com", "description": "Generate high-quality images from natural language descriptions." }
+    ]
+  },
+  {
+    "title": "5 Websites for Free Illustrations",
+    "websites": [
+      { "name": "Undraw", "url": "https://undraw.co/illustrations", "description": "Open-source illustrations for any idea you can imagine and create." },
+      { "name": "Blush", "url": "https://blush.design", "description": "Easily create and customize stunning illustrations with collections from artists." },
+      { "name": "Icons8", "url": "https://icons8.com/illustrations", "description": "Free vector illustrations to class up your project." },
+      { "name": "Humaaans", "url": "https://www.humaaans.com", "description": "Mix-&-match illustrations of people with a design library." },
+      { "name": "DrawKit", "url": "https://www.drawkit.com", "description": "Hand-drawn vector illustration and icon resources, perfect for your next project." }
+    ]
+  },
+  {
+    "title": "Top 5 Independent News Sources",
+    "websites": [
+      { "name": "Associated Press", "url": "https://apnews.com", "description": "An independent global news organization dedicated to factual reporting." },
+      { "name": "Reuters", "url": "https://www.reuters.com", "description": "The world's largest multimedia news provider, reaching billions of people daily." },
+      { "name": "ProPublica", "url": "https://www.propublica.org", "description": "An independent, nonprofit newsroom that produces investigative journalism." },
+      { "name": "NPR", "url": "https://www.npr.org", "description": "A nonprofit media organization that produces and distributes news and cultural programming." },
+      { "name": "The Guardian", "url": "https://www.theguardian.com", "description": "Independent, international news organization owned by the Scott Trust." }
+    ]
+  },
+  {
+    "title": "5 Tools for Web Developers",
+    "websites": [
+      { "name": "CodePen", "url": "https://codepen.io", "description": "An online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets." },
+      { "name": "Vercel", "url": "https://vercel.com", "description": "A cloud platform for static sites and Serverless Functions that fits perfectly with your workflow." },
+      { "name": "Smashing Magazine", "url": "https://www.smashingmagazine.com", "description": "An online magazine for professional web designers and developers." },
+      { "name": "CSS-Tricks", "url": "https://css-tricks.com", "description": "Daily articles about CSS, HTML, JavaScript, and all things related to web design and development." },
+      { "name": "Stack Overflow", "url": "https://stackoverflow.com", "description": "The largest, most trusted online community for developers to learn and share their knowledge." }
+    ]
+  },
+  {
+    "title": "Top 5 Online Learning Platforms",
+    "websites": [
+      { "name": "Coursera", "url": "https://www.coursera.org", "description": "Build skills with courses, certificates, and degrees online from world-class universities." },
+      { "name": "edX", "url": "https://www.edx.org", "description": "Access 2000 free online courses from 140 leading institutions worldwide." },
+      { "name": "Khan Academy", "url": "https://www.khanacademy.org", "description": "A non-profit with the mission to provide a free, world-class education for anyone, anywhere." },
+      { "name": "Udemy", "url": "https://www.udemy.com", "description": "The world's largest selection of courses. Choose from over 150,000 online video courses." },
+      { "name": "freeCodeCamp", "url": "https://www.freecodecamp.org", "description": "Learn to code for free. Build projects. Earn certifications." }
+    ]
+  },
+  {
+    "title": "Top Websites for Budgeting and Expense Tracking",
+    "websites": [
+      { "name": "YNAB (You Need A Budget)", "url": "https://www.youneedabudget.com", "description": "Rule-based budgeting to give every dollar a job and gain control of your money." },
+      { "name": "EveryDollar", "url": "https://www.everydollar.com", "description": "Zero-based budgeting app to plan and track monthly spending." },
+      { "name": "PocketGuard", "url": "https://pocketguard.com", "description": "Track bills, subscriptions, and see how much you can safely spend." },
+      { "name": "Goodbudget", "url": "https://goodbudget.com", "description": "Envelope budgeting system for households and couples." },
+      { "name": "Empower Personal Dashboard", "url": "https://www.empower.com", "description": "Net worth, cash flow, and investment tracking (formerly Personal Capital)." }
+    ]
+  },
+  {
+    "title": "Top Websites for Paying Bills and Managing Banking",
+    "websites": [
+      { "name": "Prism", "url": "https://www.prismmoney.com", "description": "Bill tracking and reminders to help you pay on time." },
+      { "name": "doxo", "url": "https://www.doxo.com", "description": "All-in-one bill pay with reminders and document storage." },
+      { "name": "PayPal", "url": "https://www.paypal.com", "description": "Send, receive, and manage money online securely." },
+      { "name": "Wise", "url": "https://wise.com", "description": "Low-cost international transfers and multi-currency accounts." },
+      { "name": "Venmo", "url": "https://venmo.com", "description": "Peer-to-peer payments and simple splitting with friends." }
+    ]
+  },
+  {
+    "title": "Top Websites for Grocery Shopping and Delivery",
+    "websites": [
+      { "name": "Instacart", "url": "https://www.instacart.com", "description": "Same-day delivery from local grocery stores and warehouses." },
+      { "name": "Walmart Grocery", "url": "https://www.walmart.com/grocery", "description": "Pickup and delivery for groceries and household essentials." },
+      { "name": "Amazon Fresh", "url": "https://www.amazon.com/fresh", "description": "Grocery delivery from Amazon with wide selection of items." },
+      { "name": "Target", "url": "https://www.target.com", "description": "Pickup and same-day delivery for groceries and essentials." },
+      { "name": "Costco", "url": "https://www.costco.com", "description": "Warehouse deals on bulk groceries and household supplies." }
+    ]
+  },
+  {
+    "title": "Top Websites for Coupons and Cashback",
+    "websites": [
+      { "name": "Honey", "url": "https://www.joinhoney.com", "description": "Automatically finds and applies coupon codes at checkout." },
+      { "name": "Rakuten", "url": "https://www.rakuten.com", "description": "Earn cashback at thousands of stores online and in-store." },
+      { "name": "RetailMeNot", "url": "https://www.retailmenot.com", "description": "Promo codes, coupons, and cashback offers for popular retailers." },
+      { "name": "Slickdeals", "url": "https://slickdeals.net", "description": "Community-powered deal hunting and price tracking alerts." },
+      { "name": "Coupons.com", "url": "https://www.coupons.com", "description": "Printable and digital coupons for groceries and brands." }
+    ]
+  },
+  {
+    "title": "Top Websites for Recipes and Meal Planning",
+    "websites": [
+      { "name": "Allrecipes", "url": "https://www.allrecipes.com", "description": "Crowdsourced recipes, ratings, and reviews for every cuisine." },
+      { "name": "Serious Eats", "url": "https://www.seriouseats.com", "description": "Tested recipes with science-backed cooking techniques." },
+      { "name": "BBC Good Food", "url": "https://www.bbcgoodfood.com", "description": "Reliable recipes, meal plans, and kitchen tips." },
+      { "name": "Tasty", "url": "https://tasty.co", "description": "Quick recipe videos and step-by-step instructions." },
+      { "name": "Budget Bytes", "url": "https://www.budgetbytes.com", "description": "Affordable, flavorful recipes with cost per serving." }
+    ]
+  },
+  {
+    "title": "Top Websites for Fitness and Health Tracking",
+    "websites": [
+      { "name": "MyFitnessPal", "url": "https://www.myfitnesspal.com", "description": "Calorie counting, macro tracking, and food database." },
+      { "name": "Strava", "url": "https://www.strava.com", "description": "Track runs, rides, and workouts with social features." },
+      { "name": "Fitbit", "url": "https://www.fitbit.com", "description": "Health metrics, sleep tracking, and guided programs." },
+      { "name": "Nike Training Club", "url": "https://www.nike.com/training/nike-training-club", "description": "Free workouts and training plans for all levels." },
+      { "name": "Cronometer", "url": "https://cronometer.com", "description": "Detailed nutrition tracking with micronutrient targets." }
+    ]
+  },
+  {
+    "title": "Top Websites for Meditation and Mindfulness",
+    "websites": [
+      { "name": "Headspace", "url": "https://www.headspace.com", "description": "Guided meditations, sleep stories, and mindfulness courses." },
+      { "name": "Calm", "url": "https://www.calm.com", "description": "Meditations, breathing exercises, and relaxing soundscapes." },
+      { "name": "Insight Timer", "url": "https://insighttimer.com", "description": "Thousands of free meditations and live events." },
+      { "name": "UCLA Mindful", "url": "https://www.uclahealth.org/programs/marc/mindful-meditations", "description": "Free guided meditations from UCLA Health." },
+      { "name": "Smiling Mind", "url": "https://www.smilingmind.com.au", "description": "Free mindfulness programs for all ages." }
+    ]
+  },
+  {
+    "title": "Top Websites for Daily Weather Updates",
+    "websites": [
+      { "name": "Weather.com", "url": "https://weather.com", "description": "Local forecasts, radar maps, and severe weather alerts." },
+      { "name": "AccuWeather", "url": "https://www.accuweather.com", "description": "Minute-by-minute forecasts and air quality data." },
+      { "name": "Windy", "url": "https://www.windy.com", "description": "Detailed wind, radar, and satellite maps for planning." },
+      { "name": "National Weather Service", "url": "https://www.weather.gov", "description": "Official US forecasts, warnings, and weather data." },
+      { "name": "Met Office", "url": "https://www.metoffice.gov.uk", "description": "UK weather forecasts and climate information." }
+    ]
+  },
+  {
+    "title": "Top Websites for Maps and Directions",
+    "websites": [
+      { "name": "Google Maps", "url": "https://maps.google.com", "description": "Driving, transit, and walking directions with traffic." },
+      { "name": "OpenStreetMap", "url": "https://www.openstreetmap.org", "description": "Open, editable world map data and routes." },
+      { "name": "Bing Maps", "url": "https://www.bing.com/maps", "description": "Road maps, aerial imagery, and venue details." },
+      { "name": "Waze", "url": "https://www.waze.com", "description": "Community-based traffic routes and alerts." },
+      { "name": "MapQuest", "url": "https://www.mapquest.com", "description": "Directions, route planning, and nearby places." }
+    ]
+  },
+  {
+    "title": "Top Websites for Travel and Flight Deals",
+    "websites": [
+      { "name": "Google Flights", "url": "https://www.google.com/travel/flights", "description": "Fast flight search with flexible date and price tracking." },
+      { "name": "Skyscanner", "url": "https://www.skyscanner.com", "description": "Compare flights, hotels, and car rentals worldwide." },
+      { "name": "KAYAK", "url": "https://www.kayak.com", "description": "Travel search with price alerts and Explore features." },
+      { "name": "Booking.com", "url": "https://www.booking.com", "description": "Hotels, apartments, and stays with flexible options." },
+      { "name": "Airbnb", "url": "https://www.airbnb.com", "description": "Homes and unique stays for trips and getaways." }
+    ]
+  },
+  {
+    "title": "Top Websites for Job Search",
+    "websites": [
+      { "name": "LinkedIn Jobs", "url": "https://www.linkedin.com/jobs", "description": "Professional network with tailored job recommendations." },
+      { "name": "Indeed", "url": "https://www.indeed.com", "description": "Job listings, company reviews, and salary insights." },
+      { "name": "Glassdoor", "url": "https://www.glassdoor.com", "description": "Company reviews, interview tips, and job postings." },
+      { "name": "ZipRecruiter", "url": "https://www.ziprecruiter.com", "description": "AI-matched job alerts and one-click applications." },
+      { "name": "Monster", "url": "https://www.monster.com", "description": "Job search, resume tools, and career advice." }
+    ]
+  },
+  {
+    "title": "Top Websites for Cloud Storage and File Sharing",
+    "websites": [
+      { "name": "Google Drive", "url": "https://drive.google.com", "description": "Store, share, and collaborate on docs in the cloud." },
+      { "name": "Dropbox", "url": "https://www.dropbox.com", "description": "File sync, sharing, and backup across devices." },
+      { "name": "OneDrive", "url": "https://onedrive.live.com", "description": "Microsoft cloud storage integrated with Office." },
+      { "name": "iCloud Drive", "url": "https://www.icloud.com/iclouddrive", "description": "Apple cloud storage for files and backups." },
+      { "name": "Box", "url": "https://www.box.com", "description": "Secure content management and collaboration." }
+    ]
+  },
+  {
+    "title": "Top Websites for Email and Communication",
+    "websites": [
+      { "name": "Gmail", "url": "https://mail.google.com", "description": "Google's email with powerful search and filters." },
+      { "name": "Outlook", "url": "https://outlook.live.com", "description": "Microsoft's email, calendar, and contacts online." },
+      { "name": "Yahoo Mail", "url": "https://mail.yahoo.com", "description": "Free email with customizable views and themes." },
+      { "name": "Proton Mail", "url": "https://proton.me/mail", "description": "Privacy-first, end-to-end encrypted email." },
+      { "name": "Zoho Mail", "url": "https://www.zoho.com/mail/", "description": "Business email with ad-free, clean interface." }
+    ]
+  },
+  {
+    "title": "Top Websites for Entertainment Streaming",
+    "websites": [
+      { "name": "YouTube", "url": "https://www.youtube.com", "description": "Videos, channels, and live streams for every interest." },
+      { "name": "Netflix", "url": "https://www.netflix.com", "description": "Movies and TV shows on-demand across devices." },
+      { "name": "Prime Video", "url": "https://www.primevideo.com", "description": "Amazon's streaming service with original content." },
+      { "name": "Disney+", "url": "https://www.disneyplus.com", "description": "Disney, Marvel, Star Wars, Pixar, and more." },
+      { "name": "Hulu", "url": "https://www.hulu.com", "description": "Stream TV shows, movies, and live TV." }
+    ]
+  },
+  {
+    "title": "Top Websites for Music Streaming",
+    "websites": [
+      { "name": "Spotify", "url": "https://open.spotify.com", "description": "Music and podcasts with personalized playlists." },
+      { "name": "Apple Music", "url": "https://music.apple.com", "description": "Huge catalog with lossless and spatial audio." },
+      { "name": "YouTube Music", "url": "https://music.youtube.com", "description": "Music videos, remixes, and official tracks." },
+      { "name": "Pandora", "url": "https://www.pandora.com", "description": "Stations and playlists based on your tastes." },
+      { "name": "SoundCloud", "url": "https://soundcloud.com", "description": "Independent artists, remixes, and podcasts." }
+    ]
+  },
+  {
+    "title": "Top Websites for Secondhand Buying and Selling",
+    "websites": [
+      { "name": "eBay", "url": "https://www.ebay.com", "description": "Buy and sell new or used items in auctions or fixed-price." },
+      { "name": "Craigslist", "url": "https://www.craigslist.org", "description": "Local classifieds for goods, jobs, and services." },
+      { "name": "Facebook Marketplace", "url": "https://www.facebook.com/marketplace", "description": "Discover and sell items locally via Facebook." },
+      { "name": "OfferUp", "url": "https://offerup.com", "description": "Local buying and selling with shipping options." },
+      { "name": "Mercari", "url": "https://www.mercari.com", "description": "Marketplace for selling and buying pre-owned goods." }
+    ]
+  },
+  {
+    "title": "Top Websites for Home Improvement and DIY",
+    "websites": [
+      { "name": "The Home Depot", "url": "https://www.homedepot.com", "description": "Tools, materials, and project guides for your home." },
+      { "name": "Lowe's", "url": "https://www.lowes.com", "description": "Home improvement supplies and how-to resources." },
+      { "name": "Instructables", "url": "https://www.instructables.com", "description": "Step-by-step DIY projects and tutorials." },
+      { "name": "Family Handyman", "url": "https://www.familyhandyman.com", "description": "Expert tips, projects, and home maintenance guides." },
+      { "name": "Houzz", "url": "https://www.houzz.com", "description": "Home design ideas, pros, and product marketplace." }
+    ]
+  },
+  {
+    "title": "Top Websites for Language Learning",
+    "websites": [
+      { "name": "Duolingo", "url": "https://www.duolingo.com", "description": "Gamified language lessons for many languages." },
+      { "name": "Babbel", "url": "https://www.babbel.com", "description": "Practical conversations and grammar lessons." },
+      { "name": "Memrise", "url": "https://www.memrise.com", "description": "Vocabulary building with spaced repetition." },
+      { "name": "Busuu", "url": "https://www.busuu.com", "description": "Interactive lessons with feedback from natives." },
+      { "name": "Tandem", "url": "https://www.tandem.net", "description": "Language exchange with real people worldwide." }
+    ]
+  },
+  {
+    "title": "Top Websites for Investing and Personal Finance",
+    "websites": [
+      { "name": "Vanguard", "url": "https://investor.vanguard.com", "description": "Low-cost index funds, ETFs, and retirement accounts." },
+      { "name": "Fidelity", "url": "https://www.fidelity.com", "description": "Brokerage, retirement planning, and research tools." },
+      { "name": "Charles Schwab", "url": "https://www.schwab.com", "description": "Investing, banking, and financial education." },
+      { "name": "Robinhood", "url": "https://robinhood.com", "description": "Commission-free trading with a simple interface." },
+      { "name": "Morningstar", "url": "https://www.morningstar.com", "description": "Independent investment research and portfolio tools." }
+    ]
+  },
+  {
+    "title": "Top Websites for Tax Filing and Prep",
+    "websites": [
+      { "name": "TurboTax", "url": "https://turbotax.intuit.com", "description": "Guided tax filing with step-by-step help." },
+      { "name": "H&R Block", "url": "https://www.hrblock.com", "description": "Online filing, virtual help, and in-person services." },
+      { "name": "FreeTaxUSA", "url": "https://www.freetaxusa.com", "description": "Affordable federal and state e-filing with support." },
+      { "name": "Cash App Taxes", "url": "https://cash.app/taxes", "description": "Free tax filing for federal and state returns." },
+      { "name": "IRS Free File", "url": "https://www.irs.gov/filing/free-file-do-your-federal-taxes-for-free", "description": "Guided tax prep options for eligible filers (US)." }
+    ]
+  }
+]
