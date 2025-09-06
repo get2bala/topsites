@@ -1,0 +1,107 @@
+[
+  {
+    "group": "Family and Life Stages",
+    "personas": [
+      "First-time Parent",
+      "Expecting Parent",
+      "School Student - Primary",
+      "School Student - Secondary",
+      "College Student",
+      "Graduate Student",
+      "New Graduate",
+      "Job Seeker",
+      "Newly Married Couple",
+      "Single Adult",
+      "Senior Citizen",
+      "Retiree"
+    ]
+  },
+  {
+    "group": "Career and Work",
+    "personas": [
+      "Entrepreneur",
+      "Small Business Owner",
+      "Startup Founder",
+      "Freelancer",
+      "Remote Worker",
+      "Corporate Professional",
+      "Creative Professional",
+      "Healthcare Worker",
+      "Educator",
+      "Researcher",
+      "Skilled Tradesperson",
+      "Government Employee"
+    ]
+  },
+  {
+    "group": "Financial and Life Events",
+    "personas": [
+      "First-time Homebuyer",
+      "Renter",
+      "Car Buyer",
+      "Car Owner",
+      "Person Managing Debt",
+      "Budget Conscious Individual",
+      "Investor",
+      "Wealth Builder",
+      "Immigrant",
+      "New Resident",
+      "Retirement Planner",
+      "Estate Planner"
+    ]
+  },
+  {
+    "group": "Health and Wellness",
+    "personas": [
+      "Fitness Enthusiast",
+      "Beginner Exerciser",
+      "Chronic Patient",
+      "Caregiver",
+      "Mental Health Focused Individual",
+      "Nutrition Focused Individual",
+      "Person with Disability",
+      "Elderly Caregiver",
+      "Wellness Seeker"
+    ]
+  },
+  {
+    "group": "Lifestyle and Interests",
+    "personas": [
+      "Traveler",
+      "Backpacker",
+      "Digital Nomad",
+      "Food Lover",
+      "Home Cook",
+      "Entertainment Seeker",
+      "Gamer",
+      "Hobbyist",
+      "DIY Enthusiast",
+      "Pet Owner",
+      "Environmentally Conscious Consumer",
+      "Fashion Enthusiast"
+    ]
+  },
+  {
+    "group": "Community and Social",
+    "personas": [
+      "Social Media Influencer",
+      "Content Creator",
+      "Volunteer",
+      "Nonprofit Worker",
+      "Community Organizer",
+      "Activist",
+      "Religious Community Member"
+    ]
+  },
+  {
+    "group": "Education and Learning",
+    "personas": [
+      "Lifelong Learner",
+      "Language Learner",
+      "STEM Student",
+      "Arts Student",
+      "Professional Certification Seeker",
+      "Adult Education Student"
+    ]
+  }
+]

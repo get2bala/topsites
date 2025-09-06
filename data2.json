@@ -67,7 +67,7 @@
   },
   {
     "title": "Top 5 Online Learning Platforms",
-    "tags": ["Education", "Lifelong Learner", "Adult Education Student"],
+    "tags": ["Education"],
     "websites": [
       { "name": "Coursera", "url": "https://www.coursera.org", "description": "Build skills with courses, certificates, and degrees online from world-class universities." },
       { "name": "edX", "url": "https://www.edx.org", "description": "Access 2000 free online courses from 140 leading institutions worldwide." },
@@ -78,7 +78,7 @@
   },
   {
     "title": "Top Websites for Budgeting and Expense Tracking",
-    "tags": ["Finance", "Household", "Budget Conscious Individual"],
+    "tags": ["Finance", "Household"],
     "websites": [
       { "name": "YNAB (You Need A Budget)", "url": "https://www.youneedabudget.com", "description": "Rule-based budgeting to give every dollar a job and gain control of your money." },
       { "name": "EveryDollar", "url": "https://www.everydollar.com", "description": "Zero-based budgeting app to plan and track monthly spending." },
@@ -111,7 +111,7 @@
   },
   {
     "title": "Top Websites for Coupons and Cashback",
-    "tags": ["Shopping", "Household", "Budget Conscious Individual"],
+    "tags": ["Shopping", "Household"],
     "websites": [
       { "name": "Honey", "url": "https://www.joinhoney.com", "description": "Automatically finds and applies coupon codes at checkout." },
       { "name": "Rakuten", "url": "https://www.rakuten.com", "description": "Earn cashback at thousands of stores online and in-store." },
@@ -133,7 +133,7 @@
   },
   {
     "title": "Top Websites for Fitness and Health Tracking",
-    "tags": ["Fitness", "Health"],
+    "tags": ["Fitness", "Healthcare"],
     "websites": [
       { "name": "MyFitnessPal", "url": "https://www.myfitnesspal.com", "description": "Calorie counting, macro tracking, and food database." },
       { "name": "Strava", "url": "https://www.strava.com", "description": "Track runs, rides, and workouts with social features." },
@@ -144,7 +144,7 @@
   },
   {
     "title": "Top Websites for Meditation and Mindfulness",
-    "tags": ["Health", "Fitness"],
+    "tags": ["Healthcare", "Fitness"],
     "websites": [
       { "name": "Headspace", "url": "https://www.headspace.com", "description": "Guided meditations, sleep stories, and mindfulness courses." },
       { "name": "Calm", "url": "https://www.calm.com", "description": "Meditations, breathing exercises, and relaxing soundscapes." },
@@ -168,7 +168,7 @@
     "title": "Top Websites for Maps and Directions",
     "tags": ["Travel"],
     "websites": [
-      { "name": "Google Maps", "url": "https://maps.google.com/", "description": "Driving, transit, and walking directions with traffic." },
+      { "name": "Google Maps", "url": "https://maps.google.com", "description": "Driving, transit, and walking directions with traffic." },
       { "name": "OpenStreetMap", "url": "https://www.openstreetmap.org", "description": "Open, editable world map data and routes." },
       { "name": "Bing Maps", "url": "https://www.bing.com/maps", "description": "Road maps, aerial imagery, and venue details." },
       { "name": "Waze", "url": "https://www.waze.com", "description": "Community-based traffic routes and alerts." },
@@ -188,7 +188,7 @@
   },
   {
     "title": "Top Websites for Job Search",
-    "tags": ["Education", "Productivity", "Job Seeker", "New Graduate"],
+    "tags": ["Education", "Productivity"],
     "websites": [
       { "name": "LinkedIn Jobs", "url": "https://www.linkedin.com/jobs", "description": "Professional network with tailored job recommendations." },
       { "name": "Indeed", "url": "https://www.indeed.com", "description": "Job listings, company reviews, and salary insights." },
@@ -221,7 +221,7 @@
   },
   {
     "title": "Top Websites for Entertainment Streaming",
-    "tags": ["Entertainment", "Entertainment Seeker"],
+    "tags": ["Entertainment"],
     "websites": [
       { "name": "YouTube", "url": "https://www.youtube.com", "description": "Videos, channels, and live streams for every interest." },
       { "name": "Netflix", "url": "https://www.netflix.com", "description": "Movies and TV shows on-demand across devices." },
@@ -232,9 +232,9 @@
   },
   {
     "title": "Top Websites for Music Streaming",
-    "tags": ["Entertainment", "Entertainment Seeker"],
+    "tags": ["Entertainment"],
     "websites": [
-      { "name": "Spotify", "url": "https://www.spotify.com", "description": "Music and podcasts with personalized playlists." },
+      { "name": "Spotify", "url": "https://open.spotify.com", "description": "Music and podcasts with personalized playlists." },
       { "name": "Apple Music", "url": "https://music.apple.com", "description": "Huge catalog with lossless and spatial audio." },
       { "name": "YouTube Music", "url": "https://music.youtube.com", "description": "Music videos, remixes, and official tracks." },
       { "name": "Pandora", "url": "https://www.pandora.com", "description": "Stations and playlists based on your tastes." },
@@ -276,7 +276,7 @@
   },
   {
     "title": "Top Websites for Investing and Personal Finance",
-    "tags": ["Finance", "Wealth Builder", "Retirement Planner"],
+    "tags": ["Finance"],
     "websites": [
       { "name": "Vanguard", "url": "https://investor.vanguard.com", "description": "Low-cost index funds, ETFs, and retirement accounts." },
       { "name": "Fidelity", "url": "https://www.fidelity.com", "description": "Brokerage, retirement planning, and research tools." },
@@ -353,7 +353,7 @@
   },
   {
     "title": "Top 5 Test Preparation Websites",
-    "tags": ["Education", "Graduate Student", "Professional Certification Seeker"],
+    "tags": ["Education"],
     "websites": [
       { "name": "Khan Academy", "url": "https://www.khanacademy.org/test-prep", "description": "Free practice tests and prep for SAT, LSAT, GMAT, and more." },
       { "name": "Kaplan Test Prep", "url": "https://www.kaptest.com", "description": "Courses and practice for MCAT, LSAT, GRE, SAT, and other exams." },
@@ -364,7 +364,7 @@
   },
   {
     "title": "Top 5 Gaming Websites",
-    "tags": ["Entertainment", "Entertainment Seeker"],
+    "tags": ["Entertainment"],
     "websites": [
       { "name": "IGN", "url": "https://www.ign.com", "description": "Gaming news, reviews, guides, and forums for all platforms." },
       { "name": "GameSpot", "url": "https://www.gamespot.com", "description": "Reviews, news, and videos for games across consoles and PC." },
@@ -377,7 +377,7 @@
     "title": "Top 5 Podcast Platforms Websites",
     "tags": ["Entertainment"],
     "websites": [
-      { "name": "Spotify", "url": "https://www.spotify.com", "description": "Stream podcasts with personalized recommendations and playlists." },
+      { "name": "Spotify", "url": "https://open.spotify.com", "description": "Stream podcasts with personalized recommendations and playlists." },
       { "name": "Apple Podcasts", "url": "https://podcasts.apple.com", "description": "Curated podcasts with subscriptions and offline listening." },
       { "name": "Google Podcasts", "url": "https://podcasts.google.com", "description": "Search and discover podcasts integrated with Google services." },
       { "name": "Pocket Casts", "url": "https://pocketcasts.com", "description": "User-friendly podcast player with cross-device sync." },
@@ -529,7 +529,7 @@
   },
   {
     "title": "Top 5 Fashion Blogs Websites",
-    "tags": ["Lifestyle", "Fashion Enthusiast"],
+    "tags": ["Lifestyle"],
     "websites": [
       { "name": "Sincerely Jules", "url": "https://sincerelyjules.com", "description": "Fashion, beauty, and lifestyle inspiration." },
       { "name": "The Blonde Salad", "url": "https://www.theblondesalad.com", "description": "Chiara Ferragni's fashion and travel blog." },
@@ -595,7 +595,7 @@
   },
   {
     "title": "Top 5 Fashion Shopping Websites",
-    "tags": ["Shopping", "Fashion Enthusiast"],
+    "tags": ["Shopping"],
     "websites": [
       { "name": "ASOS", "url": "https://www.asos.com", "description": "Latest trends in clothing and accessories." },
       { "name": "Zara", "url": "https://www.zara.com", "description": "Fast fashion with new arrivals weekly." },
@@ -833,358 +833,6 @@
       { "name": "Bon Appétit", "url": "https://www.bonappetit.com", "description": "Recipes, restaurant reviews, and food culture." },
       { "name": "Tasting Table", "url": "https://www.tastingtable.com", "description": "Find the best food and drink recommendations." },
       { "name": "Saveur", "url": "https://www.saveur.com", "description": "Global culinary travel and authentic recipes." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Primary School Students",
-    "tags": ["School Student - Primary", "Family and Life Stages", "Education"],
-    "websites": [
-      { "name": "Coolmath Games", "url": "https://www.coolmathgames.com", "description": "Brain-training, logic, and math games for kids." },
-      { "name": "ABCmouse", "url": "https://www.abcmouse.com", "description": "Full online curriculum for children ages 2-8." },
-      { "name": "Starfall", "url": "https://www.starfall.com", "description": "Phonics and reading games for early childhood education." },
-      { "name": "BrainPOP Jr.", "url": "https://jr.brainpop.com", "description": "Animated educational videos, games, and quizzes for K-3 students." },
-      { "name": "Mystery Doug", "url": "https://mysterydoug.com", "description": "Short science videos that answer questions kids have." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Secondary School Students",
-    "tags": ["School Student - Secondary", "Family and Life Stages", "Education"],
-    "websites": [
-      { "name": "Khan Academy", "url": "https://www.khanacademy.org", "description": "Free lessons and practice in math, science, and humanities." },
-      { "name": "Quizlet", "url": "https://quizlet.com", "description": "Flashcards, study sets, and practice tests for all subjects." },
-      { "name": "WolframAlpha", "url": "https://www.wolframalpha.com", "description": "A computational knowledge engine for solving complex problems." },
-      { "name": "College Board", "url": "https://www.collegeboard.org", "description": "Resources for SAT preparation, AP courses, and college applications." },
-      { "name": "Purdue Online Writing Lab (OWL)", "url": "https://owl.purdue.edu", "description": "Comprehensive resource for writing, research, and citation styles." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Single Adults",
-    "tags": ["Single Adult", "Family and Life Stages", "Lifestyle"],
-    "websites": [
-      { "name": "Meetup", "url": "https://www.meetup.com", "description": "Find and join local groups to meet new people and try new activities." },
-      { "name": "Eventbrite", "url": "https://www.eventbrite.com", "description": "Discover local events, classes, and concerts." },
-      { "name": "Skillshare", "url": "https://www.skillshare.com", "description": "Online classes to learn new creative skills and hobbies." },
-      { "name": "Mint", "url": "https://mint.intuit.com", "description": "Personal finance app to manage budgets, track spending, and save money." },
-      { "name": "Hinge", "url": "https://hinge.co", "description": "A popular dating app designed to be deleted." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Retirees",
-    "tags": ["Retiree", "Family and Life Stages", "Lifestyle"],
-    "websites": [
-      { "name": "AARP", "url": "https://www.aarp.org", "description": "Resources on health, money, and lifestyle, including discounts for members." },
-      { "name": "Road Scholar", "url": "https://www.roadscholar.org", "description": "Educational travel programs and learning adventures for older adults." },
-      { "name": "Cruise Critic", "url": "https://www.cruisecritic.com", "description": "Reviews and information for planning cruise vacations." },
-      { "name": "The Motley Fool Retirement", "url": "https://www.fool.com/retirement/", "description": "Financial advice and strategies for managing retirement savings." },
-      { "name": "Stitch", "url": "https://www.stitch.net", "description": "A social community for adults over 50 to find companionship and events." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Healthcare Workers",
-    "tags": ["Healthcare Worker", "Career and Work", "Health"],
-    "websites": [
-      { "name": "UpToDate", "url": "https://www.uptodate.com", "description": "Evidence-based clinical decision support resource for medical professionals." },
-      { "name": "Medscape", "url": "https://www.medscape.com", "description": "Medical news, drug information, and continuing medical education (CME)." },
-      { "name": "Doximity", "url": "https://www.doximity.com", "description": "Social network for healthcare professionals for networking and telehealth." },
-      { "name": "AMN Healthcare", "url": "https://www.amnhealthcare.com", "description": "Job board for travel nursing and allied health positions." },
-      { "name": "ShiftKey", "url": "https://www.shiftkey.com", "description": "Platform connecting healthcare professionals with open per-diem shifts." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Educators",
-    "tags": ["Educator", "Career and Work", "Education"],
-    "websites": [
-      { "name": "Teachers Pay Teachers", "url": "https://www.teacherspayteachers.com", "description": "Marketplace for original educational resources created by teachers." },
-      { "name": "Google Classroom", "url": "https://classroom.google.com", "description": "A free tool to help educators manage coursework and communication." },
-      { "name": "Edutopia", "url": "https://www.edutopia.org", "description": "Inspiration and practical strategies for K-12 education." },
-      { "name": "Kahoot!", "url": "https://kahoot.com", "description": "A game-based learning platform to create and host quizzes." },
-      { "name": "Common Sense Education", "url": "https://www.commonsense.org/education/", "description": "Reviews and resources for educational technology and digital citizenship." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Researchers",
-    "tags": ["Researcher", "Career and Work", "Education"],
-    "websites": [
-      { "name": "Google Scholar", "url": "https://scholar.google.com", "description": "A simple way to broadly search for scholarly literature." },
-      { "name": "JSTOR", "url": "https://www.jstor.org", "description": "A digital library of academic journals, books, and primary sources." },
-      { "name": "Zotero", "url": "https://www.zotero.org", "description": "Free, easy-to-use tool to help you collect, organize, cite, and share research." },
-      { "name": "ResearchGate", "url": "https://www.researchgate.net", "description": "Social networking site for scientists and researchers to share papers and collaborate." },
-      { "name": "Academia.edu", "url": "https://www.academia.edu", "description": "A platform for academics to share research papers." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Skilled Tradespeople",
-    "tags": ["Skilled Tradesperson", "Career and Work", "Household"],
-    "websites": [
-      { "name": "Mike Rowe WORKS Foundation", "url": "https://www.mikeroweworks.org", "description": "Advocacy and scholarship opportunities for the skilled trades." },
-      { "name": "Pro Tool Reviews", "url": "https://www.protoolreviews.com", "description": "Expert reviews and buying guides for professional tools." },
-      { "name": "Angi", "url": "https://www.angi.com", "description": "Connects skilled trade professionals with local customer jobs." },
-      { "name": "The Jobber Academy", "url": "https://academy.getjobber.com", "description": "Free resources on how to start and grow a home service business." },
-      { "name": "SkillsUSA", "url": "https://www.skillsusa.org", "description": "A partnership of students, teachers and industry working together to ensure America has a skilled workforce." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Government Employees",
-    "tags": ["Government Employee", "Career and Work", "Finance"],
-    "websites": [
-      { "name": "USAJOBS", "url": "https://www.usajobs.gov", "description": "The official website for federal government job listings." },
-      { "name": "GovLoop", "url": "https://www.govloop.com", "description": "A professional social network for government employees to connect and learn." },
-      { "name": "FedSmith", "url": "https://www.fedsmith.com", "description": "News and information for the federal government workforce." },
-      { "name": "Thrift Savings Plan (TSP)", "url": "https://www.tsp.gov", "description": "The official site for the federal government's retirement savings and investment plan." },
-      { "name": "OPM.gov", "url": "https://www.opm.gov", "description": "The U.S. Office of Personnel Management website with information on federal benefits and policies." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Car Owners",
-    "tags": ["Car Owner", "Financial and Life Events", "Transportation"],
-    "websites": [
-      { "name": "Kelley Blue Book (KBB)", "url": "https://www.kbb.com", "description": "Check your car's value, find recall information, and read expert reviews." },
-      { "name": "RepairPal", "url": "https://repairpal.com", "description": "Estimate repair costs, find trusted local mechanics, and get maintenance advice." },
-      { "name": "RockAuto", "url": "https://www.rockauto.com", "description": "An online auto parts store with a massive selection for DIY repairs." },
-      { "name": "GasBuddy", "url": "https://www.gasbuddy.com", "description": "Find the cheapest gas prices in your area and track fuel expenses." },
-      { "name": "CARFAX", "url": "https://www.carfax.com", "description": "Get vehicle history reports and manage your car's service history." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Managing Debt",
-    "tags": ["Person Managing Debt", "Financial and Life Events", "Finance"],
-    "websites": [
-      { "name": "National Foundation for Credit Counseling (NFCC)", "url": "https://www.nfcc.org", "description": "Find non-profit credit counselors for debt management plans and financial advice." },
-      { "name": "Undebt.it", "url": "https://undebt.it", "description": "A free tool to create a personalized debt snowball or avalanche payoff plan." },
-      { "name": "AnnualCreditReport.com", "url": "https://www.annualcreditreport.com", "description": "The only official site to get your free credit reports from the three major bureaus." },
-      { "name": "Debt.org", "url": "https://www.debt.org", "description": "Information and resources on debt consolidation, credit counseling, and bankruptcy." },
-      { "name": "PowerPay", "url": "https://powerpay.org", "description": "A free tool from Utah State University to develop a self-directed debt elimination plan." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Immigrants",
-    "tags": ["Immigrant", "Financial and Life Events", "Social"],
-    "websites": [
-      { "name": "U.S. Citizenship and Immigration Services (USCIS)", "url": "https://www.uscis.gov", "description": "Official government source for immigration forms, case status, and policy information." },
-      { "name": "Upwardly Global", "url": "https://www.upwardlyglobal.org", "description": "Non-profit organization that helps immigrants and refugees restart their professional careers in the U.S." },
-      { "name": "Boundless", "url": "https://www.boundless.com", "description": "Helps families navigate the immigration system with online tools and legal support." },
-      { "name": "Immihelp", "url": "https://www.immihelp.com", "description": "Comprehensive information and resources for U.S. immigration and visas." },
-      { "name": "VisaJourney", "url": "https://www.visajourney.com", "description": "A community forum for immigrants to share timelines and ask questions about the visa process." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for New Residents",
-    "tags": ["New Resident", "Financial and Life Events", "Household"],
-    "websites": [
-      { "name": "Nextdoor", "url": "https://nextdoor.com", "description": "A social network to connect with your neighbors and local community." },
-      { "name": "Yelp", "url": "https://www.yelp.com", "description": "Find reviews for local businesses, from restaurants to plumbers." },
-      { "name": "GreatSchools", "url": "https://www.greatschools.org", "description": "Ratings and information on local schools for families with children." },
-      { "name": "Allconnect", "url": "https://www.allconnect.com", "description": "Compare and set up utilities like internet, TV, and electricity for your new home." },
-      { "name": "DMV.org", "url": "https://www.dmv.org", "description": "A private site that simplifies driver and vehicle services, including address changes." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Estate Planning",
-    "tags": ["Estate Planner", "Financial and Life Events", "Finance"],
-    "websites": [
-      { "name": "Nolo", "url": "https://www.nolo.com/legal-encyclopedia/wills-trusts-estates", "description": "Provides reliable, plain-English legal information on wills, trusts, and probate." },
-      { "name": "LegalZoom", "url": "https://www.legalzoom.com", "description": "Online service for creating legal documents like wills, trusts, and powers of attorney." },
-      { "name": "Trust & Will", "url": "https://trustandwill.com", "description": "A user-friendly platform for creating and managing estate planning documents online." },
-      { "name": "Everplans", "url": "https://www.everplans.com", "description": "A digital vault to securely store and organize all of your important life documents and final wishes." },
-      { "name": "FindLaw", "url": "https://www.findlaw.com/estate-planning.html", "description": "Articles, guides, and a directory to find local estate planning attorneys." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Beginner Exercisers",
-    "tags": ["Beginner Exerciser", "Health and Wellness", "Fitness"],
-    "websites": [
-      { "name": "Fitness Blender", "url": "https://www.fitnessblender.com", "description": "A vast library of free, full-length workout videos for every fitness level." },
-      { "name": "Nike Training Club", "url": "https://www.nike.com/ntc-app", "description": "Free app with a wide range of guided workouts, from yoga to HIIT." },
-      { "name": "Darebee", "url": "https://darebee.com", "description": "An independent fitness resource with workout programs, challenges, and nutritional information." },
-      { "name": "Nerd Fitness", "url": "https://www.nerdfitness.com", "description": "A supportive community with articles and programs to help beginners level up their lives." },
-      { "name": "r/bodyweightfitness", "url": "https://www.reddit.com/r/bodyweightfitness/", "description": "A Reddit community with a highly-regarded Recommended Routine for building strength at home." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Chronic Patients",
-    "tags": ["Chronic Patient", "Health and Wellness", "Health"],
-    "websites": [
-      { "name": "PatientsLikeMe", "url": "https://www.patientslikeme.com", "description": "A social network connecting patients with similar conditions to share experiences and data." },
-      { "name": "CaringBridge", "url": "https://www.caringbridge.org", "description": "A personal health journal to privately share updates with family and friends." },
-      { "name": "GoodRx", "url": "https://www.goodrx.com", "description": "Compare prescription drug prices and find coupons to save money." },
-      { "name": "The Mighty", "url": "https://themighty.com", "description": "A digital health community with stories and resources for people facing health challenges." },
-      { "name": "MyChart", "url": "https://www.mychart.com", "description": "Access your personal health records from participating healthcare organizations." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Caregivers",
-    "tags": ["Caregiver", "Health and Wellness", "Health"],
-    "websites": [
-      { "name": "AARP Family Caregiving", "url": "https://www.aarp.org/caregiving/", "description": "Comprehensive resources, practical tips, and support for caregivers." },
-      { "name": "Caregiver Action Network", "url": "https://caregiveraction.org", "description": "Provides education, peer support, and resources for family caregivers." },
-      { "name": "Lotsa Helping Hands", "url": "https://lotsahelpinghands.com", "description": "A free care calendar to coordinate help and communicate with community members." },
-      { "name": "Family Caregiver Alliance", "url": "https://www.caregiver.org", "description": "Services and advocacy for caregivers of adults with chronic health conditions." },
-      { "name": "DailyCaring", "url": "https://dailycaring.com", "description": "Practical tips and expert advice for everyday caregiving challenges." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Nutrition-Focused Individuals",
-    "tags": ["Nutrition Focused Individual", "Health and Wellness", "Food"],
-    "websites": [
-      { "name": "Cronometer", "url": "https://cronometer.com", "description": "A detailed nutrition tracker that monitors vitamins, minerals, and macronutrients." },
-      { "name": "Nutrition.gov", "url": "https://www.nutrition.gov", "description": "U.S. government source for credible information on nutrition, healthy eating, and food safety." },
-      { "name": "Examine.com", "url": "https://examine.com", "description": "Independent, evidence-based analysis of nutrition and supplement research." },
-      { "name": "The Whole30 Program", "url": "https://whole30.com", "description": "A 30-day dietary reset program with recipes and resources to change your health and habits." },
-      { "name": "Minimalist Baker", "url": "https://minimalistbaker.com", "description": "A food blog with simple, delicious recipes that are often plant-based and gluten-free." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for People with Disabilities",
-    "tags": ["Person with Disability", "Health and Wellness", "Social"],
-    "websites": [
-      { "name": "The Mighty", "url": "https://themighty.com", "description": "A safe, supportive community for people facing health challenges, including disabilities." },
-      { "name": "Job Accommodation Network (JAN)", "url": "https://askjan.org", "description": "Free, expert guidance on workplace accommodations and disability employment issues." },
-      { "name": "AbleThrive", "url": "https://ablethrive.com", "description": "Curated articles and videos with resources for living well with a disability." },
-      { "name": "Be My Eyes", "url": "https://www.bemyeyes.com", "description": "A free app that connects blind and low-vision people with sighted volunteers for visual assistance." },
-      { "name": "Disability.gov (Archive)", "url": "https://archive.usa.gov/disability-services", "description": "An archived but still useful portal of U.S. federal government disability-related resources." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Elderly Caregivers",
-    "tags": ["Elderly Caregiver", "Health and Wellness", "Health"],
-    "websites": [
-      { "name": "National Institute on Aging (NIA)", "url": "https://www.nia.nih.gov", "description": "Reliable, research-based information on aging and health topics for older adults." },
-      { "name": "AgingCare", "url": "https://www.agingcare.com", "description": "An online community and resource hub for those caring for aging parents and spouses." },
-      { "name": "Teepa Snow's Positive Approach to Care", "url": "https://teepasnow.com", "description": "Dementia care training and resources for caregivers to improve awareness and skills." },
-      { "name": "Alzheimer's Association", "url": "https://www.alz.org", "description": "Information, support, and resources for caregivers of individuals with Alzheimer's and other dementias." },
-      { "name": "Meals on Wheels America", "url": "https://www.mealsonwheelsamerica.org", "description": "Provides nutritious meals and friendly visits to seniors and people with disabilities." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Wellness Seekers",
-    "tags": ["Wellness Seeker", "Health and Wellness", "Lifestyle"],
-    "websites": [
-      { "name": "mindbodygreen", "url": "https://www.mindbodygreen.com", "description": "A lifestyle media brand dedicated to inspiring you to live your best life." },
-      { "name": "Well+Good", "url": "https://www.wellandgood.com", "description": "News and trends in fitness, nutrition, and holistic wellness." },
-      { "name": "The Good Trade", "url": "https://www.thegoodtrade.com", "description": "A guide to sustainable living, slow fashion, and self-care." },
-      { "name": "Tiny Buddha", "url": "https://tinybuddha.com", "description": "Simple wisdom for complex lives, with stories and tips on happiness and mindfulness." },
-      { "name": "Headspace", "url": "https://www.headspace.com", "description": "An app for guided meditation, mindfulness, and sleep." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Hobbyists",
-    "tags": ["Hobbyist", "Lifestyle and Interests", "DIY Enthusiast"],
-    "websites": [
-      { "name": "Instructables", "url": "https://www.instructables.com", "description": "A community for people who like to make things, with tutorials for every kind of project." },
-      { "name": "Etsy", "url": "https://www.etsy.com", "description": "A global marketplace for unique and creative goods, from handmade crafts to vintage finds." },
-      { "name": "Ravelry", "url": "https://www.ravelry.com", "description": "A community and resource for knitters, crocheters, and fiber artists." },
-      { "name": "BoardGameGeek", "url": "https://boardgamegeek.com", "description": "An online resource and community for board game hobbyists." },
-      { "name": "Skillshare", "url": "https://www.skillshare.com", "description": "Online learning community with thousands of classes in design, photography, and more." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Environmentally Conscious Consumers",
-    "tags": ["Environmentally Conscious Consumer", "Lifestyle and Interests", "Shopping"],
-    "websites": [
-      { "name": "Good On You", "url": "https://goodonyou.eco", "description": "A trusted source for ethical and sustainable fashion brand ratings." },
-      { "name": "Treehugger", "url": "https://www.treehugger.com", "description": "A leading media outlet for sustainability news, green living tips, and product reviews." },
-      { "name": "Package Free Shop", "url": "https://packagefreeshop.com", "description": "A retailer for zero-waste, sustainable alternatives to everyday products." },
-      { "name": "Eartheasy", "url": "https://eartheasy.com", "description": "A family business offering products and solutions for sustainable living." },
-      { "name": "ThredUP", "url": "https://www.thredup.com", "description": "One of the world's largest online consignment and thrift stores." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Social Media Influencers",
-    "tags": ["Social Media Influencer", "Community and Social", "Career and Work"],
-    "websites": [
-      { "name": "HypeAuditor", "url": "https://hypeauditor.com", "description": "An AI-powered platform for analyzing influencer accounts and detecting fraud." },
-      { "name": "Later", "url": "https://later.com", "description": "A social media scheduling and management tool." },
-      { "name": "LTK (LikeToKnowIt)", "url": "https://www.shopltk.com", "description": "A platform for influencers to monetize their content through affiliate links." },
-      { "name": "Grin", "url": "https://grin.co", "description": "An influencer marketing platform for e-commerce brands to build direct partnerships." },
-      { "name": "Social Blade", "url": "https://socialblade.com", "description": "Tracks user statistics for YouTube, Twitch, Instagram, and other social media platforms." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Content Creators",
-    "tags": ["Content Creator", "Community and Social", "Career and Work"],
-    "websites": [
-      { "name": "Canva", "url": "https://www.canva.com", "description": "An easy-to-use graphic design platform for creating social media graphics and other visual content." },
-      { "name": "Patreon", "url": "https://www.patreon.com", "description": "A membership platform that allows creators to earn a monthly income directly from their fans." },
-      { "name": "Gumroad", "url": "https://gumroad.com", "description": "An e-commerce platform for selling digital products like ebooks, courses, and software." },
-      { "name": "ConvertKit", "url": "https://convertkit.com", "description": "An email marketing platform designed specifically for online creators." },
-      { "name": "Epidemic Sound", "url": "https://www.epidemicsound.com", "description": "A subscription service for royalty-free music and sound effects for videos." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Volunteers",
-    "tags": ["Volunteer", "Community and Social", "Lifestyle"],
-    "websites": [
-      { "name": "VolunteerMatch", "url": "https://www.volunteermatch.org", "description": "Connects volunteers with a wide range of opportunities in their local communities." },
-      { "name": "Idealist", "url": "https://www.idealist.org", "description": "A platform for finding volunteer opportunities, jobs, and internships in the non-profit sector." },
-      { "name": "JustServe", "url": "https://www.justserve.org", "description": "A website and app that links community volunteer needs with volunteers." },
-      { "name": "Create the Good", "url": "https://createthegood.aarp.org", "description": "Connects people with volunteer opportunities that match their interests and skills." },
-      { "name": "Points of Light", "url": "https://www.pointsoflight.org", "description": "A global organization that mobilizes people to take action on the causes they care about." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Nonprofit Workers",
-    "tags": ["Nonprofit Worker", "Community and Social", "Career and Work"],
-    "websites": [
-      { "name": "Candid", "url": "https://candid.org", "description": "Provides data, tools, and training for nonprofits to find funding and operate effectively." },
-      { "name": "GrantStation", "url": "https://grantstation.com", "description": "An online database of grantmakers and funding opportunities." },
-      { "name": "TechSoup", "url": "https://www.techsoup.org", "description": "Connects nonprofits with discounted and donated technology products and services." },
-      { "name": "The Chronicle of Philanthropy", "url": "https://www.philanthropy.com", "description": "The leading news source for the non-profit world." },
-      { "name": "Charity Navigator", "url": "https://www.charitynavigator.org", "description": "An independent evaluator of non-profit organizations' financial health and accountability." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Community Organizers",
-    "tags": ["Community Organizer", "Community and Social", "Activist"],
-    "websites": [
-      { "name": "The Commons Social Change Library", "url": "https://commonslibrary.org", "description": "A searchable collection of educational resources for social change." },
-      { "name": "Organizing for Power", "url": "https://organizingforpower.org", "description": "Offers online training and resources for organizers and activists." },
-      { "name": "Action Network", "url": "https://actionnetwork.org", "description": "A digital organizing toolset for petitions, events, and email campaigns." },
-      { "name": "Mobilize", "url": "https://www.mobilize.us", "description": "An event management and volunteer recruitment platform for mission-driven organizations." },
-      { "name": "PowerLabs", "url": "https://powerlabs.io", "description": "Provides strategy, training, and support for digital organizing and campaigns." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Activists",
-    "tags": ["Activist", "Community and Social", "News"],
-    "websites": [
-      { "name": "Change.org", "url": "https://www.change.org", "description": "The world’s largest petition platform, empowering people to start campaigns." },
-      { "name": "Amnesty International", "url": "https://www.amnesty.org", "description": "A global movement campaigning for human rights." },
-      { "name": "ACLU", "url": "https://www.aclu.org", "description": "The American Civil Liberties Union works to defend and preserve individual rights and liberties." },
-      { "name": "350.org", "url": "https://350.org", "description": "An international environmental organization building a global climate movement." },
-      { "name": "MoveOn", "url": "https://front.moveon.org", "description": "A public policy advocacy group and petition website." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Religious Community Members",
-    "tags": ["Religious Community Member", "Community and Social", "Lifestyle"],
-    "websites": [
-      { "name": "BibleGateway", "url": "https://www.biblegateway.com", "description": "A searchable online Bible in over 200 versions and 70 languages." },
-      { "name": "YouVersion", "url": "https://www.youversion.com", "description": "A Bible app offering reading plans, devotionals, and community features." },
-      { "name": "Chabad.org", "url": "https://www.chabad.org", "description": "A comprehensive resource for Jewish information, study, and community." },
-      { "name": "IslamQA", "url": "https://islamqa.info", "description": "An academic, educational, and da'wah organization offering detailed answers to questions about Islam." },
-      { "name": "The Pluralism Project", "url": "https://pluralism.org", "description": "A Harvard University project studying and interpreting religious diversity in the United States." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for STEM Students",
-    "tags": ["STEM Student", "Education and Learning", "Education"],
-    "websites": [
-      { "name": "WolframAlpha", "url": "https://www.wolframalpha.com", "description": "A computational knowledge engine for answering factual queries and solving complex problems." },
-      { "name": "Brilliant.org", "url": "https://brilliant.org", "description": "Interactive online courses in mathematics, science, and computer science." },
-      { "name": "MIT OpenCourseWare", "url": "https://ocw.mit.edu", "description": "A free and open publication of material from thousands of MIT courses." },
-      { "name": "Stack Exchange Network", "url": "https://stackexchange.com", "description": "A network of Q&A websites on diverse topics, including Stack Overflow for programming." },
-      { "name": "Desmos", "url": "https://www.desmos.com/calculator", "description": "An advanced online graphing calculator and a suite of math education tools." }
-    ]
-  },
-  {
-    "title": "Top 5 Resources for Arts Students",
-    "tags": ["Arts Student", "Education and Learning", "Creative Professional"],
-    "websites": [
-      { "name": "Behance", "url": "https://www.behance.net", "description": "An online platform to showcase and discover creative work, serving as a digital portfolio." },
-      { "name": "ArtStation", "url": "https://www.artstation.com", "description": "A leading showcase platform for game, film, media & entertainment artists." },
-      { "name": "Proko", "url": "https://www.proko.com", "description": "Offers video tutorials on drawing fundamentals and anatomy for artists." },
-      { "name": "DeviantArt", "url": "https://www.deviantart.com", "description": "The largest online social community for artists and art enthusiasts." },
-      { "name": "Skillshare", "url": "https://www.skillshare.com", "description": "An online learning community with thousands of classes in creative and artistic fields." }
     ]
   }
 ]
