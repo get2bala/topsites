@@ -24,7 +24,7 @@
                     <button id="menu-btn" class="p-2 -m-2 rounded-lg hover:bg-black/5" aria-label="Open menu">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
                     </button>
-                    <h1 class="text-xl md:text-2xl font-bold">Top Sites</h1>
+                    <h1 id="main-heading" class="text-xl md:text-2xl font-bold">Top Sites</h1>
                 </div>
                 <div class="flex items-center gap-3">
                     <div id="active-filter" class="hidden items-center gap-2">
@@ -82,6 +82,7 @@
         const activeFilterWrap = document.getElementById('active-filter');
         const closeFilterBtn = document.getElementById('close-filter-btn');
         const filterLabel = document.getElementById('filter-label');
+        const mainHeading = document.getElementById('main-heading');
 
         // --- DATA LOADING ---
         let allCategories = [];
@@ -258,9 +259,11 @@
             if (activeFilterTag) {
                 activeFilterWrap.classList.remove('hidden');
                 filterLabel.textContent = activeFilterTag;
+                mainHeading.classList.add('hidden');
             } else {
                 activeFilterWrap.classList.add('hidden');
                 filterLabel.textContent = '';
+                mainHeading.classList.remove('hidden');
             }
         }
 
