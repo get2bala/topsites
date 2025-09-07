@@ -28,24 +28,30 @@
       "Creative Professional",
       "Healthcare Worker",
       "Educator",
+      "Immigrant",
       "Researcher",
       "Skilled Tradesperson",
       "Government Employee"
     ]
   },
   {
-    "group": "Financial and Life Events",
+    "group": "Life Events",
     "personas": [
       "First-time Homebuyer",
       "Renter",
       "Car Buyer",
       "Car Owner",
+      "Immigrant",
+      "New Resident"
+    ]
+  },
+  {
+    "group": "Financial",
+    "personas": [
       "Person Managing Debt",
       "Budget Conscious Individual",
       "Investor",
       "Wealth Builder",
-      "Immigrant",
-      "New Resident",
       "Retirement Planner",
       "Estate Planner"
     ]
@@ -102,6 +108,19 @@
       "Arts Student",
       "Professional Certification Seeker",
       "Adult Education Student"
+    ]
+  },
+  {
+    "group": "Artificial Intelligence (AI)",
+    "personas": [
+      "AI Researcher",
+      "AI Developer",
+      "AI in Healthcare",
+      "AI in Finance",
+      "AI in Retail",
+      "AI in Education",
+      "AI Ethicist",
+      "AI Product Manager"
     ]
   }
 ]
