@@ -4,21 +4,13 @@ A simple web application to discover useful websites organized by categories and
 
 ## Features
 
-- Browse curated lists of websites organized by category
-- Filter websites by tags
+ **Listing Page (`sites.html`)**: Shows categorized website listings, can be filtered by tags or persona
 - Browse by persona (e.g., First-time Parent, Entrepreneur, College Student)
 - Mobile-friendly and responsive design
 - "Add to Home Screen" functionality for mobile devices
-
-## Pages
-
-- **Home Page (`home.html`)**: Displays categories from personas.json, allowing users to browse websites based on their persona or life stage
-- **Listing Page (`index.html`)**: Shows categorized website listings, can be filtered by tags or persona
-
-## File Structure
-
-- `index.html`: Main website listing page
-- `home.html`: Home page showing persona categories 
+ `sites.html`: Main website listing page
+- `index.html`: Home page showing persona categories 
+- `home.html`: Main website listing page
 - `data.json`: Contains website listings organized by category
 - `personas.json`: Contains persona categories and specific personas
 - `config.json`: Configuration for the application
@@ -28,7 +20,7 @@ A simple web application to discover useful websites organized by categories and
 
 ## How to Use
 
-1. Open `home.html` to browse by persona categories
+1. Open `index.html` to browse by persona categories
 2. Click on a specific persona to see website recommendations tailored to that persona
 3. Use the menu button to filter by additional categories
 4. Click "Browse All" to see all website listings
