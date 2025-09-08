@@ -17,27 +17,22 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-    <header class="fixed top-0 left-0 right-0 bg-white border-b border-gray-200 z-50">
-    <div class="container mx-auto max-w-3xl px-4 py-3 md:py-4">
+    <header class="fixed top-0 left-0 right-0 bg-white border-b border-gray-200 z-50 h-16">
+    <div class="container mx-auto max-w-3xl px-4 py-1.5">
             <div class="flex items-center justify-between">
                 <div class="flex items-center gap-2">
                     <button id="menu-btn" class="p-2 -m-2 rounded-lg hover:bg-black/5" aria-label="Open menu">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
                     </button>
                     <div>
-                        <h1 id="main-heading" class="text-xl md:text-2xl font-bold">
+                        <h1 id="main-heading" class="text-xl font-bold">
                             <span class="bg-gradient-to-r from-blue-600 to-sky-400 text-transparent bg-clip-text">TOP5X</span><span class="text-gray-400">.net</span>
                         </h1>
                         <p class="text-sm text-gray-600">Discover top websites.</p>
                     </div>
                 </div>
                 <div class="flex items-center gap-3">
-                    <div id="active-filter" class="hidden items-center gap-2">
-                        <span id="filter-label" class="inline-flex items-center px-2.5 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-700"></span>
-                        <button id="close-filter-btn" class="p-2 rounded-lg hover:bg-black/5" aria-label="Close filter">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-                        </button>
-                    </div>
+                    <!-- Filter indicators completely removed as requested -->
                     <a href="index.html" class="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition-colors" aria-label="Home">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l9-9 9 9"/><path d="M9 21V9h6v12"/></svg>
                         Home
@@ -66,7 +61,10 @@
         </aside>
     </div>
     
-    <div class="container mx-auto max-w-3xl px-4 pt-24 md:pt-28">
+    <div class="container mx-auto max-w-3xl px-4 pt-0">
+        <!-- Filter message area -->
+        <div id="filter-message" class="mb-3 px-4 py-3 text-gray-700 text-base bg-gray-50 rounded-lg hidden"></div>
+        
         <main id="feed-container" class="space-y-8">
             <!-- Cards will be injected here by JavaScript -->
         </main>
@@ -89,10 +87,8 @@
         const overlayBg = document.getElementById('overlay-bg');
         const closeMenuBtn = document.getElementById('close-menu-btn');
         const categoryList = document.getElementById('category-list');
-        const activeFilterWrap = document.getElementById('active-filter');
-        const closeFilterBtn = document.getElementById('close-filter-btn');
-        const filterLabel = document.getElementById('filter-label');
         const mainHeading = document.getElementById('main-heading');
+        const filterMessage = document.getElementById('filter-message');
 
         // --- DATA LOADING ---
         let allCategories = [];
@@ -216,7 +212,7 @@
             if (filtered.length === 0) {
                 const empty = document.createElement('div');
                 empty.className = 'p-6 text-center text-gray-600';
-                empty.innerHTML = `No results for <span class="font-semibold">${tag}</span>.`;
+                empty.innerHTML = `No website categories found for <span class="font-semibold">${tag}</span>.`;
                 feedContainer.appendChild(empty);
             } else {
                 filtered.forEach((category, idx) => {
@@ -253,29 +249,26 @@
 
         function setActiveFilter(tag) {
             activeFilterTag = tag;
-            updateHeader();
+            updateHeader(); // This function no longer updates UI filter indicators
             renderCategoryMenu();
             renderFiltered(tag);
         }
 
         function clearFilter() {
             activeFilterTag = null;
-            updateHeader();
+            updateHeader(); // This function no longer updates UI filter indicators
             renderCategoryMenu();
             renderAllInitial();
         }
 
         function updateHeader() {
+            // Update the filter message instead of showing filter indicators in the header
             if (activeFilterTag) {
-                activeFilterWrap.classList.remove('hidden');
-                filterLabel.textContent = activeFilterTag;
-                // Don't hide the main heading anymore
-                // mainHeading.classList.add('hidden');
+                filterMessage.textContent = `Showing results for "${activeFilterTag}"`;
+                filterMessage.classList.remove('hidden');
             } else {
-                activeFilterWrap.classList.add('hidden');
-                filterLabel.textContent = '';
-                // No need to show it since we're not hiding it
-                // mainHeading.classList.remove('hidden');
+                filterMessage.classList.add('hidden');
+                filterMessage.textContent = '';
             }
         }
 
@@ -301,7 +294,7 @@
         menuBtn.addEventListener('click', openMenu);
         closeMenuBtn.addEventListener('click', closeMenu);
         overlayBg.addEventListener('click', closeMenu);
-        closeFilterBtn.addEventListener('click', clearFilter);
+        // All filter UI related event listeners have been removed
 
         // Initial load
         window.onload = async () => {
